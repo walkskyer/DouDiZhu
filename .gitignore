@@ -4,7 +4,6 @@
 *.jar
 *.war
 *.ear
-!/lib/commons-logging.jar
 
 #config files#
 /build.xml
@@ -13,5 +12,3 @@
 /nbproject/
 #build#
 /build/
-
-/data/book--.txt
