@@ -16,7 +16,10 @@ public class Time extends Thread {
 		this.main = m;
 		this.i = i;
 	}
-
+        
+        /**
+         * 通过线程等待控制发牌和抢地主。
+         */
 	@Override
 	public void run() {
 
